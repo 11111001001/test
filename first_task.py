@@ -1,5 +1,5 @@
 import string
-import requests
+# import requests
 
 alphabet = {letter: int(index) for index, letter in enumerate(string.ascii_uppercase, start=1)}
 name_position = 0
