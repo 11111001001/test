@@ -12,7 +12,7 @@ def alphabet_position(name, cnt=0):
     return cnt * name_position
 
 
-# Работа со скачанным файлом
+# Анализ скачанного файла
 with open('names.txt') as f:
     print(*[sum(alphabet_position(name[1:-1]) for name in sorted(f.read().split(',')))])
 
